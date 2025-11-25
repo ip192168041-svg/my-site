@@ -65,3 +65,11 @@ body {
 .btn:hover {
   background: #d73a49;
 }
+.whatsapp {
+  background: #25D366;
+  margin-top: 15px;
+}
+.whatsapp:hover {
+  background: #1ebe5d;
+}
+
