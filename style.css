@@ -8,8 +8,8 @@ body {
 
   /* Фоновое изображение + градиент */
   background: 
-    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
-    url(https://drive.google.com/file/d/1bBDq1hwZGuto36KJNNAZoqKUxb5GRW8y/view?usp=drive_link) no-repeat center center fixed;
+  linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+  url('https://example.com/your-image.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -46,6 +46,7 @@ section h2 { font-size: 2em; margin-bottom: 15px; color: #ff4b5c; }
   header h1 { font-size: 2em; }
   .cards { grid-template-columns: 1fr; }
 }
+
 
 
 
