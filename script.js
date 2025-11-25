@@ -1,1 +1,1 @@
-console.log("Сайт загружен успешно!");
+console.log("2fast RM — site loaded!");
