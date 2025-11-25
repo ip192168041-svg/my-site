@@ -1,7 +1,17 @@
-/* Основные настройки */
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'Roboto', sans-serif; background: linear-gradient(135deg, #ff9a9e, #fad0c4); color: #450; }
-.container { max-width: 1000px; margin: auto; padding: 20px; }
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* Фоновое изображение + градиент */
+  background: 
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+    url(https://drive.google.com/file/d/1bBDq1hwZGuto36KJNNAZoqKUxb5GRW8y/view?usp=drive_link) no-repeat center center fixed;
+  background-size: cover;
+}
 
 /* Header */
 header { text-align: center; padding: 60px 20px; background: rgba(255,255,255,0.9); border-radius: 20px; margin: 20px 0; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
@@ -36,6 +46,7 @@ section h2 { font-size: 2em; margin-bottom: 15px; color: #ff4b5c; }
   header h1 { font-size: 2em; }
   .cards { grid-template-columns: 1fr; }
 }
+
 
 
 
